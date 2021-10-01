@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+        body {
+            background-image: url("https://images.unsplash.com/photo-1488228469209-c141f8bcd723?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80");
+            margin: 0;
+            padding: 0;
+            background-position: center;
+			background-repeat: no-repeat;
+            background-image opacity: 0.5;
+
+        }
+        header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+           
+        }
+        h1{
+            color: forestgreen;
+            font-family: 'Italianno', cursive;
+            font-size: 55px;
+            font-weight: 1000;
+        }
+         h2{
+            font-size: 25px;
+        }
+        h3{
+            color: white;
+            font-family: 'Italianno', cursive;
+            margin-top: 1em;
+            font-size: 120px;
+            letter-spacing: 0em;
+            word-spacing: 0.1em;
+            font-weight:bolder ;
+        }
+
+        a,
+        button {
+            color: white;
+            font-size: 2rem;
+            font-weight: bolder;
+            font-family: 'Acme', sans-serif;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .header-left {
+            margin-right: auto;
+            color: black;
+            padding:auto;
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+        .nav-links li {
+            display: inline-block;
+            padding: 0 1.25rem;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-size: 2rem;
+            transition: all 0.5s ease 0s;
+            font-weight: bold;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .nav-links li a:hover {
+            color: skyblue;
+        }
+        .footer_ls li a:hover{
+            color: skyblue;
+        }
+
+        button {
+            background: #04bd70;
+            cursor: pointer;
+            padding: 9px 20px;
+            border: none;
+            border-radius: 50px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 15px;
+            transition: all 0.5s ease 0s;
+            margin-left: 20px;
+        }
+
+        button:hover {
+            background: rgba(0, 173, 181, 0.8);
+        }
+        .footer {
+            list-style-type: none;
+            margin-bottom: 0;
+            margin-left: 70em;
+            border-top: 0em;
+            color: black;
+        }
+
+        .footer_ls {
+            display: inline;
+            color: grey;
+        }
+    </style>
+    <title>Navbar Design</title>
+</head>
+
+<body>
+    <header>
+        <span class="header-left">
+           <h1>hEALTHAROMA</h1>
+           <h2 style="font-size: 25px;">Health Empowers You</h2>
+        </span>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US </a></li>
+                <li><a href="#">HEALTHCARE TIPS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h3>The state of our nation is only as<br>good as the state of our health</h3>
+        <ul>
+            <button class="button button">BOOK YOUR APPOINTMENT</button>
+    </div>
+    <!--footer-->
+        <div>
+            <ul class="footer"class="btn-group">
+                 <li class="footer_ls">
+                    <a href="https://www.facebook.com/">
+                 <button type="button" class="btn btn-primary">facebook</button>                
+                 <i class="fab fa-facebook-f"style="color: black;"style="padding: auto;"></i></a>
+                 </li>
+                 <li class="footer_ls">
+                    <a href="https://www.instagram.com/">
+                        <button type="button" class="btn btn-primary">instagram</button>
+                        <i class="fab fa-instagram-square"style="color: black;"></i>
+                    </a>
+                </li>
+                 <li class="footer_ls">
+                <a href="https://twitter.com/?lang=en">
+                    <button type="button" class="btn btn-primary">twitter</button>
+                        <i class="fab fa-twitter"style="color: black;"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+</body>
+
+</html>
